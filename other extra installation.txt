@@ -1,0 +1,17 @@
+yum remove bahmni-erp-connect.noarch
+yum install bahmni-erp-connect.noarch
+
+
+vi /etc/openmrs/openmrs-runtime.properties
+change to true in place of false
+
+Upgrade --> bahmnicore & refrence-data
+Add --> erp, imis & possible
+
+
+/opt/openmrs/erp.properties
+erp.host=localhost
+erp.port=8069
+erp.user=admin
+erp.password=admin
+erp.database=odoo
