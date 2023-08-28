@@ -100,11 +100,11 @@ yum install python-psycopg2
 - Odoo service start error during installation and need to install following package manually:
 Below command display the missing package on logs:
 ```
-Journalctl –xe
+journalctl -xe
 ```
 install required package using
 ```
-Wget https://raw.githubusercontent.com/odoo/odoo/10.0/requirements.txt
+wget https://raw.githubusercontent.com/odoo/odoo/10.0/requirements.txt
 Install -r requirement.txt
 ```
 - Need to install to resolve the odoo UI display error after installation complete :
