@@ -105,7 +105,7 @@ journalctl -xe
 install required package using
 ```
 wget https://raw.githubusercontent.com/odoo/odoo/10.0/requirements.txt
-Install -r requirement.txt
+pip install -r requirements.txt
 ```
 - Need to install to resolve the odoo UI display error after installation complete :
 ```
