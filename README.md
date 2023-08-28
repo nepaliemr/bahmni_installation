@@ -118,6 +118,8 @@ python setup.py install
 
 ```
 pip install -r extraRequirement.txt
+pip uninstall idna
+pip install idna
 ```
 
 
