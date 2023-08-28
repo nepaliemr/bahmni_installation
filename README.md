@@ -69,7 +69,7 @@ or for 0.93
 bahmni  -I local install 
 ```
 The installation should be done in about 15 - 30 minutes depending on your internet speed.
-#Trouble shoot during Installation error:
+# Trouble shoot during Installation error:
 - Postgres repo issue
 https://talk.openmrs.org/t/installing-bahmni-0-92-failed-on-postgres-installation/27865/26?page=2
 -  Postgres download package error during installation:
@@ -84,7 +84,8 @@ Find the above mention line and replace with below line:
 postgrpostgres_repo_rpm_name: pgdg-redhat-repo-latest.noarch.rpm
 postgres_repo_download_url: https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm
 ```
-- Install python-psycoppg2 package if error during installation: 
+place the pgdg file inside /opt and re run the installation
+- Install python-psycopg2 package if error during installation: 
 ```
 yum install python-psycopg2
 ```
