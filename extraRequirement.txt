@@ -9,8 +9,8 @@ babel
 urllib3 
 certifi
 chardet 
-idna
 qrcode
 requests
 suds-jurko
 xlsxwriter
+python-stdnum
