@@ -107,6 +107,20 @@ install required package using
 wget https://raw.githubusercontent.com/odoo/odoo/10.0/requirements.txt
 pip install -r requirements.txt
 ```
+isntall psycogreen
+```
+wget https://files.pythonhosted.org/packages/eb/72/4a7965cf54e341006ad74cdc72cd6572c789bc4f4e3fadc78672f1fbcfbd/psycogreen-1.0.2.tar.gz
+tar -xvf psycogreen-1.0.2.tar.gz
+cd psycogreen-1.0.2
+python setup.py install
+```
+
+
+```
+pip install -r extraRequirement.txt
+```
+
+
 - Need to install to resolve the odoo UI display error after installation complete :
 ```
 sudo npm install -g less@3.0.4 less-plugin-clean-css
