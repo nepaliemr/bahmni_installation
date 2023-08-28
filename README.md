@@ -151,4 +151,21 @@ Yum install -y Bahmni-erp
 ```
 And manually install the missing dependencies
 
+- Add port to be allowed in OS Firewall
+```
+sudo firewall-cmd --zone=public --permanent --add-port=80/tcp
+sudo firewall-cmd --zone=public --permanent --add-port=443/tcp
+sudo firewall-cmd --zone=public --permanent --add-port=8069/tcp
+sudo firewall-cmd --zone=public --permanent --add-port=8069/tcp
+sudo firewall-cmd --zone=public --permanent --add-port=8050/tcp
+sudo firewall-cmd --zone=public --permanent --add-port=8051/tcp
+sudo firewall-cmd --zone=public --permanent --add-port=8052/tcp
+sudo firewall-cmd --zone=public --permanent --add-port=8053/tcp
+sudo firewall-cmd --zone=public --permanent --add-port=8054/tcp
+sudo firewall-cmd --zone=public --permanent --add-port=8055/tcp
+sudo firewall-cmd --zone=public --permanent --add-port=8056/tcp
+sudo firewall-cmd --zone=public --permanent --add-port=8057/tcp
+firewall-cmd --reload
+```
+
 
