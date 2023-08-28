@@ -1,0 +1,14 @@
+pyusb
+ofxparse
+passlib
+pypdf
+pyserial
+pyserial
+python-chart
+babel
+psycogreen
+urllib3
+certiti
+certifi
+chardet 
+idna
