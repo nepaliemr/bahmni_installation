@@ -5,10 +5,12 @@ pypdf
 pyserial
 pyserial
 python-chart
-babel
-psycogreen
-urllib3
-certiti
+babel 
+urllib3 
 certifi
 chardet 
 idna
+qrcode
+requests
+suds-jurko
+xlsxwriter
