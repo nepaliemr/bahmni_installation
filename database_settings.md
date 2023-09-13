@@ -1,7 +1,7 @@
 - Stopping services
-  ```
-  service openmrs stop && service odoo stop && service bahmni-lab stop && service atomfeed-console stop && service bahmni-erp-connect stop
-  ```
+```
+service openmrs stop && service odoo stop && service bahmni-lab stop && service atomfeed-console stop && service bahmni-erp-connect stop
+```
 - Restarting services
 ```
 service openmrs restart && service odoo restart && service bahmni-lab restart && service atomfeed-console restart && service bahmni-erp-connect restart 
