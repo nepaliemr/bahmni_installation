@@ -57,3 +57,14 @@ su postges
 psql
  alter database odoo owner to odoo;
  ```
+
+- If no menu is diplayed after database restoration or if there is css issue
+
+```
+psql -U odoo
+delete from ir_attachement;
+```
+Restart the odoo service
+```
+service odoo restart
+```
